@@ -6,4 +6,8 @@ var IncrementalSearch;
         return Input;
     })();
     IncrementalSearch.Input = Input;
+    function hoge() {
+        return "fuga";
+    }
+    IncrementalSearch.hoge = hoge;
 })(IncrementalSearch || (IncrementalSearch = {}));

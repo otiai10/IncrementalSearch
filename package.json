@@ -8,6 +8,10 @@
     "version": "0.0.1",
     "devDependencies": {
         "gulp": "*",
-        "gulp-tsc": "*"
+        "gulp-tsc": "*",
+        "testem": "*"
+    },
+    "scripts": {
+        "test": "./node_modules/testem/testem.js ci"
     }
 }
