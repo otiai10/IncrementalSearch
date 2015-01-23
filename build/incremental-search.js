@@ -1,1 +1,1 @@
-var IncrementalSearch;!function(n){function e(){return"fuga"}var r=function(){function n(){}return n}();n.Input=r,n.hoge=e}(IncrementalSearch||(IncrementalSearch={}));
+var IncSearch;!function(n){function c(){return"fuga"}var r=function(){function n(){}return n}();n.Input=r,n.hoge=c}(IncSearch||(IncSearch={}));

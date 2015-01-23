@@ -6,7 +6,7 @@ module Spec {
     chai.should();
     describe('hoge', () => {
         it('should be "fuga"', () => {
-            IncrementalSearch.hoge().should.equal("fuga");
+            IncSearch.hoge().should.equal("fuga");
         });
     });
 }
