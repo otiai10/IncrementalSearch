@@ -1,0 +1,13 @@
+{
+    "name": "IncrementalSearch",
+    "description": "Simple incremental search UI kit for JavaScript (and TypeScript)",
+    "repository":{
+        "type": "git",
+        "url": "https://github.com/otiai10/IncrementalSearch"
+    },
+    "version": "0.0.1",
+    "devDependencies": {
+        "gulp": "*",
+        "gulp-tsc": "*"
+    }
+}
