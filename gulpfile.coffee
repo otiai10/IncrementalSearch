@@ -1,10 +1,12 @@
-gulp = require 'gulp'
-tsc  = require 'gulp-tsc'
+gulp   = require 'gulp'
+tsc    = require 'gulp-tsc'
+uglify = require 'gulp-uglify'
 
 gulp.task 'build', () ->
     gulp.src 'src/**/*.ts'
     .pipe tsc
         out: 'incremental-search.js'
+    .pipe uglify()
     .pipe gulp.dest 'build'
 
 gulp.task 'test-compile', () ->

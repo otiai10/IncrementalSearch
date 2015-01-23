@@ -1,13 +1,1 @@
-var IncrementalSearch;
-(function (IncrementalSearch) {
-    var Input = (function () {
-        function Input() {
-        }
-        return Input;
-    })();
-    IncrementalSearch.Input = Input;
-    function hoge() {
-        return "fuga";
-    }
-    IncrementalSearch.hoge = hoge;
-})(IncrementalSearch || (IncrementalSearch = {}));
+var IncrementalSearch;!function(n){function e(){return"fuga"}var r=function(){function n(){}return n}();n.Input=r,n.hoge=e}(IncrementalSearch||(IncrementalSearch={}));

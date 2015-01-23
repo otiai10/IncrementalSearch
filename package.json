@@ -9,6 +9,7 @@
     "devDependencies": {
         "gulp": "*",
         "gulp-tsc": "*",
+        "gulp-uglify": "*",
         "testem": "*",
         "coffee-script": "*"
     },
