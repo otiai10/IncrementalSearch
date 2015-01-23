@@ -9,7 +9,8 @@
     "devDependencies": {
         "gulp": "*",
         "gulp-tsc": "*",
-        "testem": "*"
+        "testem": "*",
+        "coffee-script": "*"
     },
     "scripts": {
         "test": "./node_modules/testem/testem.js ci"
